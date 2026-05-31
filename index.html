@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+
+  <!-- ═══ PRIMARY SEO ═══ -->
+  <title>My First Date — Icebreaker Game for First Dates</title>
+  <meta name="description" content="A fun icebreaker game made for first dates. Put your phone on the table, tap your colour, answer together. No awkward silences guaranteed. Free." />
+  <meta name="keywords" content="first date game, first date questions, icebreaker game, date night ideas, conversation starters, first date app, couple game, date questions, things to talk about on a date" />
+  <link rel="canonical" href="https://myfirstdate.lol/" />
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="myfirstdate.lol" />
+
+  <!-- ═══ OPEN GRAPH ═══ -->
+  <meta property="og:type"        content="website" />
+  <meta property="og:url"         content="https://myfirstdate.lol/" />
+  <meta property="og:site_name"   content="My First Date" />
+  <meta property="og:title"       content="My First Date — Icebreaker Game for First Dates" />
+  <meta property="og:description" content="Put your phone on the table. Tap your colour. Answer together. The easiest way to actually get to know someone on a first date." />
+  <meta property="og:image"       content="https://myfirstdate.lol/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt"   content="My First Date — icebreaker game for first dates" />
+  <meta property="og:locale"      content="en_US" />
+
+  <!-- ═══ TWITTER CARD ═══ -->
+  <meta name="twitter:card"        content="summary_large_image" />
+  <meta name="twitter:site"        content="@myfirstdatelol" />
+  <meta name="twitter:url"         content="https://myfirstdate.lol/" />
+  <meta name="twitter:title"       content="My First Date — Icebreaker Game" />
+  <meta name="twitter:description" content="Put your phone on the table. Tap your colour. Break the ice. No awkward silences." />
+  <meta name="twitter:image"       content="https://myfirstdate.lol/assets/og-image.png" />
+
+  <!-- ═══ STRUCTURED DATA ═══ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "My First Date",
+    "url": "https://myfirstdate.lol/",
+    "description": "A fun icebreaker game for first dates. Put your phone on the table, tap your colour when it's your turn, answer together. No awkward silences.",
+    "applicationCategory": "LifestyleApplication",
+    "operatingSystem": "Any",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "myfirstdate.lol"
+    }
+  }
+  </script>
+
+  <!-- ═══ PWA / ICONS ═══ -->
+  <link rel="manifest"             href="/site.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" />
+  <link rel="apple-touch-icon"     sizes="180x180" href="/icons/apple-touch-icon.png" />
+  <meta name="theme-color"         content="#0a0908" />
+  <meta name="apple-mobile-web-app-capable"          content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title"            content="My First Date" />
+  <meta name="application-name"                      content="My First Date" />
+  <meta name="msapplication-TileColor"               content="#0a0908" />
+
+  <!-- ═══ FONTS ═══ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet" />
+
+  <!-- ═══ STYLESHEET ═══ -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- ═══ GOOGLE ANALYTICS ═══ -->
+  <!-- Replace G-XXXXXXXXXX with your actual Measurement ID from analytics.google.com -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+
+  <!-- ═══ GOOGLE ADSENSE ═══ -->
+  <!-- Replace ca-pub-XXXXXXXXXXXXXXXX with your actual AdSense Publisher ID from adsense.google.com -->
+  <!-- Remove this block entirely until your AdSense account is approved -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="app">
+
+  <!-- ══ WELCOME ══ -->
+  <div id="welcome" class="screen active">
+    <div class="scroll-wrap">
+
+      <div class="logo"><b></b><b></b></div>
+      <div class="w-title">my<em>first</em>date</div>
+      <p class="w-sub">Phone flat on the table between you. Tap your colour when it's your turn. Both answer. No awkward silences, guaranteed.</p>
+
+      <!-- AD SLOT — banner below hero, visible on welcome screen only -->
+      <!-- Replace data-ad-slot value with your AdSense ad unit ID -->
+      <div class="ad-slot" id="ad-welcome">
+        <ins class="adsbygoogle"
+             style="display:block;width:100%;min-height:90px;"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="XXXXXXXXXX"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <!-- NAMES -->
+      <span class="sec-lbl">Your names (optional, makes it personal)</span>
+      <div class="name-row">
+        <div class="name-field">
+          <label class="name-lbl" for="n1"><span class="name-swatch" id="sw1"></span>Bottom side</label>
+          <input class="name-input" id="n1" type="text" maxlength="12" placeholder="You" autocomplete="off" />
+        </div>
+        <div class="name-field">
+          <label class="name-lbl" for="n2"><span class="name-swatch" id="sw2"></span>Top side</label>
+          <input class="name-input" id="n2" type="text" maxlength="12" placeholder="Them" autocomplete="off" />
+        </div>
+      </div>
+
+      <!-- COUPLE TYPE -->
+      <div class="sec-lbl-toggle" id="couple-toggle">Who's on the date? <span class="toggle-arrow">▾</span></div>
+      <div class="couple-box" id="couple-box">
+        <button class="ctype-btn on" data-ct="any">
+          <span class="ct-em">💛</span>
+          <span class="ct-txt"><span class="ct-name">Just the two of us</span><span class="ct-note">Generic, works for everyone</span></span>
+        </button>
+        <button class="ctype-btn" data-ct="mw">
+          <span class="ct-em">🧡</span>
+          <span class="ct-txt"><span class="ct-name">A man and a woman</span><span class="ct-note">He / she in some questions</span></span>
+        </button>
+        <button class="ctype-btn" data-ct="ww">
+          <span class="ct-em">💜</span>
+          <span class="ct-txt"><span class="ct-name">Two women</span><span class="ct-note">She / her throughout</span></span>
+        </button>
+        <button class="ctype-btn" data-ct="mm">
+          <span class="ct-em">💙</span>
+          <span class="ct-txt"><span class="ct-name">Two men</span><span class="ct-note">He / him throughout</span></span>
+        </button>
+        <button class="ctype-btn" data-ct="nb">
+          <span class="ct-em">🖤</span>
+          <span class="ct-txt"><span class="ct-name">Non-binary / other</span><span class="ct-note">They / them, no assumptions</span></span>
+        </button>
+      </div>
+
+      <!-- VIBE -->
+      <div class="vibe-box">
+        <span class="sec-lbl">Pick a vibe</span>
+        <div class="vibe-grid" id="vg"></div>
+        <div class="deep-warn" id="deep-warn">
+          Go Deep questions get real, fast. Great if you're feeling brave, maybe save them for round two if you're not.
+        </div>
+      </div>
+
+      <!-- SPICY MODE -->
+      <button class="spicy-toggle" id="spicy-toggle">
+        <span class="st-icon">🌶️</span>
+        <span class="st-txt">
+          <span class="st-name">Spicy Mode</span>
+          <span class="st-note">Adults only. Things get flirty, intimate, provocative.</span>
+        </span>
+        <span class="st-badge" id="spicy-badge">OFF</span>
+      </button>
+
+      <button class="go-btn" id="go">Let's Go ✨</button>
+      <p class="hint">Whoever wants to go first just taps their side</p>
+
+    </div>
+  </div>
+
+  <!-- ══ GAME ══ -->
+  <div id="game" class="screen">
+    <div class="g-wrap">
+      <div class="progress-wrap"><div class="progress-bar" id="prog"></div></div>
+      <div class="panel" id="p1">
+        <div class="p-inner">
+          <div class="p-icon">👆</div>
+          <div class="p-lbl" id="l1">Tap Me</div>
+          <div class="p-sub" id="s1">go first</div>
+        </div>
+      </div>
+      <div class="strip">
+        <div class="s-info">
+          <div class="s-dot" id="sd"></div>
+          <span id="sl">Either player starts</span>
+        </div>
+        <div class="strip-btns">
+          <div style="position:relative;">
+            <button class="icon-btn" id="info-btn" title="How to play">?</button>
+            <div class="tooltip" id="tooltip">
+              Tap your coloured side when it's your turn. Both of you answer the question. Hit "Done" and the next person taps. Skip if a question doesn't land.
+            </div>
+          </div>
+          <button class="icon-btn" id="qb" title="End game">✕</button>
+        </div>
+      </div>
+      <div class="panel" id="p2">
+        <div class="p-inner">
+          <div class="p-icon">👆</div>
+          <div class="p-lbl" id="l2">Tap Me</div>
+          <div class="p-sub" id="s2">go first</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══ END ══ -->
+  <div id="end" class="screen">
+    <div class="e-wrap">
+      <div class="e-em">🥂</div>
+      <div class="e-ttl">That's a wrap!</div>
+      <p class="e-sub" id="emsg">Hope that broke the ice</p>
+      <div class="e-stats">
+        <div class="e-stat"><div class="e-n" id="ep">0</div><div class="e-l">Prompts</div></div>
+        <div class="e-stat"><div class="e-n" id="et">0</div><div class="e-l">Turns</div></div>
+        <div class="e-stat"><div class="e-n" id="ef">0</div><div class="e-l">Favourites</div></div>
+      </div>
+
+      <!-- Favourited questions -->
+      <div class="fav-section" id="fav-section">
+        <div class="fav-title">Questions you saved</div>
+        <div class="fav-list" id="fav-list"></div>
+      </div>
+
+      <!-- AD SLOT — end screen, between play again and change vibe -->
+      <div class="ad-slot" id="ad-end">
+        <ins class="adsbygoogle"
+             style="display:block;width:100%;min-height:90px;"
+             data-ad-client="ca-pub-XXXXXXXXXXXXXXXX"
+             data-ad-slot="YYYYYYYYYY"
+             data-ad-format="horizontal"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <button class="e-btn"   id="ab">Play Again</button>
+      <button class="share-btn" id="share-btn">📋 Copy saved questions</button>
+      <button class="e-btn sec" id="hb">Change Vibe</button>
+    </div>
+  </div>
+
+  <!-- ══ PROMPT OVERLAY ══ -->
+  <div id="ov">
+    <div class="ov-inner">
+      <div class="ov-top">
+        <span class="ov-tag" id="ot-top"></span>
+        <div class="ov-q"    id="oq-top"></div>
+        <span class="ov-ctr" id="oc-top"></span>
+      </div>
+      <div class="ov-divider">
+        <div class="ov-line"></div><div class="ov-dot"></div><div class="ov-line"></div>
+      </div>
+      <div class="ov-bot">
+        <span class="ov-tag" id="ot-bot"></span>
+        <div class="ov-q"    id="oq-bot"></div>
+        <span class="ov-ctr" id="oc-bot"></span>
+        <div class="ov-actions">
+          <button class="ov-btn" id="od">Done, next person's turn</button>
+          <div class="ov-secondary-row">
+            <button class="ov-ghost fav-btn" id="fav-btn">♡ save this one</button>
+            <button class="ov-ghost" id="skip-btn">skip →</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div><!-- /#app -->
+
+<!-- ══ AGE GATE ══ -->
+<div id="age-gate">
+  <div class="ag-box">
+    <div class="ag-em">🌶️</div>
+    <div class="ag-ttl">Spicy Mode</div>
+    <p class="ag-sub">This mode includes flirty and intimate questions for adults. You both need to be 18+ and actually want this.</p>
+    <button class="ag-yes" id="ag-yes">We're both adults, let's go 🔥</button>
+    <button class="ag-no"  id="ag-no">Not tonight</button>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
